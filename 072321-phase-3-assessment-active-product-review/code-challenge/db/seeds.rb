@@ -19,6 +19,7 @@ product5 = Product.create(name: "Scotch Tape", price: 3)
 puts "Creating reviews..."
 
 review1 =Review.create(comment: "Amazing", star_rating: 5, user_id: user1.id, product_id: product1.id)
+review2 =Review.create(comment: "Superb!", star_rating: 5, user_id: user1.id, product_id: product1.id)
 # *****************************************************************
 # * TODO: create reviews! Remember, a review belongs to a product *
 # * and a review belongs to an user.                              *
